@@ -45,6 +45,10 @@ background-color: transparent;
 padding-top: 100px;
 }
 
+.upps {
+ padding-top: 80px; 
+}
+
 .hoves {
   background-color: transparent;
 }
@@ -119,6 +123,9 @@ background-color: rgba(30, 132, 73, 0.09);
 }
 
 
+.long {
+height: 190px;
+}
 
 .small {
 height: 190px;
@@ -195,7 +202,6 @@ display: inline-block;
     border-color: #fff;
     width: 220px;
     margin-top: 70px;
-    height: 200px;
 }
 
 .buttone {
@@ -208,4 +214,40 @@ display: inline-block;
     border-color: #1E8449;
     width: 220px;
     margin-top: 5px;
+}
+
+.buttoni {
+display: inline-block;
+    padding: .5em;
+    background-color: transparent;
+    text-decoration: none;
+    color: #1E8449;
+    border: 1px solid;
+    border-color: #1E8449;
+    width: 180px;
+    margin-top: 5px;
+    }
+
+    .buttonii {
+display: inline-block;
+    padding: .5em;
+    background-color: transparent;
+    text-decoration: none;
+    color: #1E8449;
+    border: 1px solid;
+    border-color: #1E8449;
+    width: 180px;
+    margin-top: 30px;
+    }
+
+    .buttonri {
+display: inline-block;
+    padding: .5em;
+    background-color: transparent;
+    text-decoration: none;
+    color: #1E8449;
+    border: 1px solid;
+    border-color: #1E8449;
+    width: 180px;
+    margin-top: 30px;
 }
