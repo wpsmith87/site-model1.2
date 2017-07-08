@@ -127,6 +127,10 @@ background-color: rgba(30, 132, 73, 0.09);
 height: 190px;
 }
 
+.longi {
+height: 200px;
+}
+
 .small {
 height: 190px;
 
@@ -213,7 +217,7 @@ display: inline-block;
     border: 1px solid;
     border-color: #1E8449;
     width: 220px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .buttoni {
@@ -261,7 +265,8 @@ display: inline-block;
     border: 1px solid;
     border-color: #fff;
     width: 180px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
     .buttonri {
