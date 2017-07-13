@@ -2186,7 +2186,6 @@
 .hvr-underline-from-centers {
   display: inline-block;
   vertical-align: middle;
-  text-align: center;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
