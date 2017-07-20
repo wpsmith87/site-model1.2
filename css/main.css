@@ -317,12 +317,12 @@ display: inline-block;
 
 .card-content p {
   margin: 0.5em 0;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .card-content h6 {
   margin: 0.5em 0;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
 }
 
