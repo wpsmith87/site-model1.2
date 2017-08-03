@@ -162,13 +162,11 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  color: #1E8449;
-  background: #fff;
+  color: #020202;
+  background: #F4D03F;
   font: normal 100%/1.4 sans-serif;
-  background-color: #fff;
-background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctMjguMDQ5OTk5OTk5OTk5OTgzJyBrND0nLjAxJyAvPgo8L2ZpbHRlcj4KPHJlY3Qgd2lkdGg9JzEwMiUnIGhlaWdodD0nMTAyJScgZmlsbD0nI2ZmZicvPgo8cmVjdCB4PSctMSUnIHk9Jy0xJScgd2lkdGg9JzEwMiUnIGhlaWdodD0nMTAyJScgZmlsbD0nIzFFODQ0OScgZmlsdGVyPSd1cmwoI24pJyBvcGFjaXR5PScxJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjZmZmJyBmaWx0ZXI9J3VybCgjaSknIG9wYWNpdHk9JzEnLz4KPC9zdmc+);
-/*background-color: #fff;
-background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJSc+CiAgPGRlZnMgaWQ9J2RlZnM0Jz4KCQk8ZmlsdGVyIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0nc1JHQicgaWQ9J2YnPgoJCQk8ZmVUdXJidWxlbmNlIHR5cGU9J2ZyYWN0YWxOb2lzZScgYmFzZUZyZXF1ZW5jeT0nMTAwIC44NScgbnVtT2N0YXZlcz0nMScvPgoJCTwvZmlsdGVyPgoJCTxwYXR0ZXJuIHBhdHRlcm5Vbml0cz0ndXNlclNwYWNlT25Vc2UnIHBhdHRlcm5UcmFuc2Zvcm09J3RyYW5zbGF0ZSgwIDgwKScgaWQ9J2wnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzI1Jz4KCQkJPGxpbmUgeDE9Jy0xMCUnIHkxPScxJyB4Mj0nMTEwJScgeTI9JzEnIHN0cm9rZT0nIzFFODQ0OScgc3Ryb2tlLXdpZHRoPScxJy8+CgkJPC9wYXR0ZXJuPgoJCTxwYXR0ZXJuIHBhdHRlcm5Vbml0cz0ndXNlclNwYWNlT25Vc2UnIGlkPSdwJyB3aWR0aD0nMTAwJyBoZWlnaHQ9JzEwMCc+CgkJCTxyZWN0IHg9Jy0xMCcgeT0nLTEwJyBoZWlnaHQ9JzEyMCcgd2lkdGg9JzEyMCcgc3R5bGU9J2ZpbHRlcjp1cmwoI2YpJyAvPgoJCTwvcGF0dGVybj4KCTwvZGVmcz4KCTxyZWN0IHg9Jy0xMCUnIHk9Jy0xMCUnIGhlaWdodD0nMTIwJScgd2lkdGg9JzEyMCUnIHN0eWxlPSdmaWxsOnVybCgjcCknIC8+Cgk8cmVjdCB4PSctMTAlJyB5PSc4MCcgaGVpZ2h0PScxMDAlJyB3aWR0aD0nMTIwJScgc3R5bGU9J2ZpbGw6dXJsKCNsKScgLz4KCTxsaW5lIHgxPScxMjAnIHkxPSctNSUnIHgyPScxMjAnIHkyPScxMDUlJyBzdHJva2U9JyM4NTYnIC8+Cgk8cmVjdCB4PSctNTAlJyB5PSctNTAlJyBoZWlnaHQ9JzIwMCUnIHdpZHRoPScyMDAlJyBzdHlsZT0nZmlsbDojZmZmO2ZpbGwtb3BhY2l0eTowLjg7Jy8+Cjwvc3ZnPgo=);*/
+  background-color: #F4D03F;
+background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNjAwJyBoZWlnaHQ9JzYwMCcgdmlld0JveD0nMCAwIDE1MCAxNTAnPgo8ZmlsdGVyIGlkPSdpJyB4PScwJyB5PScwJz4KCTxmZUNvbG9yTWF0cml4IHR5cGU9J21hdHJpeCcgdmFsdWVzPScxIDAgMCAwIDAgIDAgMSAwIDAgMCAgMCAwIDEgMCAwICAwIDAgMCAwIDAnIC8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSduJyB4PScwJyB5PScwJz4KCTxmZVR1cmJ1bGVuY2UgdHlwZT0ndHVyYnVsZW5jZScgYmFzZUZyZXF1ZW5jeT0nLjcnIHJlc3VsdD0nZnV6eicgbnVtT2N0YXZlcz0nMicgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPGZlQ29tcG9zaXRlIGluPSdTb3VyY2VHcmFwaGljJyBpbjI9J2Z1enonIG9wZXJhdG9yPSdhcml0aG1ldGljJyBrMT0nMCcgazI9JzEnIGszPSctMTkuMzQ5OTk5OTk5OTk5OTk0JyBrND0nLjAxJyAvPgo8L2ZpbHRlcj4KPHJlY3Qgd2lkdGg9JzEwMiUnIGhlaWdodD0nMTAyJScgZmlsbD0nI0Y0RDAzRicvPgo8cmVjdCB4PSctMSUnIHk9Jy0xJScgd2lkdGg9JzEwMiUnIGhlaWdodD0nMTAyJScgZmlsbD0nIzAwMCcgZmlsdGVyPSd1cmwoI24pJyBvcGFjaXR5PScxJy8+CjxyZWN0IHg9Jy0xJScgeT0nLTElJyB3aWR0aD0nMTAyJScgaGVpZ2h0PScxMDIlJyBmaWxsPScjRjREMDNGJyBmaWx0ZXI9J3VybCgjaSknIG9wYWNpdHk9JzEnLz4KPC9zdmc+);
 background-attachment: fixed;
 }
 
@@ -177,6 +175,10 @@ section {
   height: inherit;
   width: 100%;
   text-decoration: none;
+}
+
+a {
+  color: #020202;
 }
 
 h1 {
@@ -189,20 +191,20 @@ h1 {
 h2 {
   /*margin-bottom: .5em;*/
   font-size: 28px;
-  color: #1E8449;
+  color: #F4D03F;
   font-weight: lighter; 
 }
 
 h3 {
   /*margin-bottom: .5em;*/
   font-size: 22px;
-  color: #1E8449;
+  color: #020202;
   font-weight: normal; 
 }
 
 h4 {
   font-size: 20px;
-   color: #1E8449;
+   color: #020202;
   font-weight: normal;
 }
 
@@ -210,7 +212,7 @@ h4 {
   width: 90%;
   margin: 0 auto;
   font-size: 28px;
-  color: #1E8449;
+  color: #020202;
   font-weight: lighter;
 }
 
@@ -218,7 +220,7 @@ h4 {
   width: 90%;
   margin: 0 auto;
   font-size: 12px;
-  color: #1E8449;
+  color: #020202;
 }
 
 .memb h3 {
@@ -286,11 +288,11 @@ input, textarea {
   height:27px;
   background:#fff;
   border:1px solid;
-  border-color: #1E8449;
+  border-color: #020202;
   padding-left:10px;
   margin-top: 10px;
   font-size:0.9em;
-  color:#012F14;
+  color:#020202;
 }
 
 textarea {
@@ -312,11 +314,11 @@ textarea {
     height: 38px;
     margin: auto;
     margin-top: 8px;
-    background-color: #fff;
+    background-color: #020202;
     border: 1px solid;
-    border-color: #1E8449;
+    border-color: #F4D03F;
     font-size: 16px;
-    color: #1E8449;
+    color: #F4D03F;
 }
 .submit-button:hover {
   -webkit-transition: background 0.1s;
@@ -335,7 +337,7 @@ textarea {
 --------------------------------------------- */
 
 header {
-  background: #fff;
+  background: #020202;
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -351,12 +353,12 @@ header {
   font-weight: bold;
   line-height: 45px;
   padding: 0 15px;
-  color: #1E8449;
+  color: #F4D03F;
   float: left;
 }
 
 .logo:hover {
-  color: #012F14;
+  color: #B2BABB;
 }
 
 
@@ -384,11 +386,11 @@ header {
   font-size: 32px;
   font-weight: bold;
   padding: 0 15px;
-  color: #1E8449;
+  color: #020202;
 }
 
 .logo-cons:hover {
-  color: #012F14;
+  color: #2C3E50;
 }
 
 .logo-cons i {
@@ -480,9 +482,9 @@ header {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   border-top: 1px solid white;
   text-decoration: none;
-  background: #fff;
+  background: #020202;
   padding: 2em 1.2em;
-  color: #1E8449;
+  color: #F4D03F;
   width: 100%;
   float: left;
   font-size: 14px;
@@ -495,7 +497,7 @@ header {
 }
 
 .nav-collapse a:hover {
-  color: #012F14;
+  color: #B2BABB;
 }
 
 @media screen and (min-width: 40em) {
@@ -597,12 +599,12 @@ list-style: none;
   font-weight: bold;
   line-height: 55px;
   padding: 0 20px;
-  color: #1E8449;
+  color: #F4D03F;
   float: left;
 }
 
 .ft-logo:hover {
-  color: #84A9CD;
+  color: #B2BABB;
 }
 
 
@@ -613,7 +615,7 @@ list-style: none;
 
 .foot nav li {
   display: inline-block;
-  color: #1E8449;
+  color: #F4D03F;
   margin-right: 8px;
   margin-left: 8px;
 }
@@ -629,7 +631,7 @@ list-style: none;
 }
 
 .foot nav a:hover {
- color: #012F14;
+ color: #B2BABB;
 }
 
 #whitepaper h2 {
@@ -637,7 +639,7 @@ list-style: none;
     font-size: 40px;
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: #fff;
+    background-color: #020202;
     text-shadow: 1px 1px rgba(52, 73, 94, 0.73);
  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -649,7 +651,7 @@ list-style: none;
     font-size: 40px;
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: #fff;
+    background-color: #020202;
     text-shadow: 1px 1px rgba(52, 73, 94, 0.73);
 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -660,7 +662,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-size: 40px;
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: #fff;
+    background-color: #020202;
     text-shadow: 1px 1px rgba(52, 73, 94, 0.73);
 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
@@ -684,7 +686,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-size: 40px;
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: #fff;
+    background-color: #020202;
     text-shadow: 1px 1px rgba(52, 73, 94, 0.73);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -710,5 +712,9 @@ background-attachment: fixed;
   list-style: none;
 }
 
+.black h4 a {
+color: #020202;
+text-decoration: none;
+}
 
 
