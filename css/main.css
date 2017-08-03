@@ -370,3 +370,13 @@ padding-top: 8px;
     text-decoration: none;
     color: #2C3E50;
   }
+
+
+  input:focus {
+     outline-color: #020202;
+  }
+
+  textarea:focus {
+   outline-color: #020202;
+
+  }
